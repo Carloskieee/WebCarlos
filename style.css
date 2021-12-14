@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.pogi{
+    position: center;
+    width: 100%;
+    height: 100vh;
+    background: url('background.png') no-repeat center center/cover;
+}
+
+nav{
+    display: flex ;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    font-size: 25px;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.name{
+    margin-left: 8%;    
+    margin-top: 7%;
+}
+
+.name h1{
+    font-size: 75px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+span{
+    color: whitesmoke;
+    font-size: 75px;
+}
+
+.name p{
+    font-size: 25px
+}
+
+.mukha{
+    width: 45%;
+    height: 80%;
+    position:absolute;
+    bottom: 0;
+    right: 100px;
+}
+.mukha img{
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.mukha:hover .shape{
+    bottom: 40px;
+}
+
+.mukha:hover .man{
+    left:45%;
+}
+
+.bg2{
+    position: center;
+    width: 100%;
+    height: 100vh;
+    background: url('background2.png') no-repeat center center/cover;
+}
+
+.heading{
+    text-align: center;
+    width: 100%;
+    height: 140px;
+}
+
+.box h2{
+    text-align: center;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.columns{
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .gallery img{
+    width: 270px;
+    height: 270px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+  }
+  .gallery img:hover{
+    background-color: rgb(235, 27, 61);
+    cursor: pointer;
+  }
+  
+  .gallery{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+
+.bg3{
+    position: center;
+    width: 100%;
+    height: 100vh;
+    background: url('background3.png') no-repeat center center/cover;
+}
+
+.bg4{
+    position: center;
+    width: 100%;
+    height: 100vh;
+    background: url('background4.png') no-repeat center center/cover;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+.input{
+    padding: 12px;
+    margin: 5px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+#msg{
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+}
+#send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}
+
+  
